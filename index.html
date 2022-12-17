@@ -1,59 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manual</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+    </style>
 </head>
+
 <body>
     <section class="body__wrapper">
         <header class="header__wrapper">
             <div class="header__logo">
-                <img src="#" alt="logo">
+                <img class="header__logo_img" src="src/img/vos-logo.png" alt="logo">
             </div>
             <div class="header__info">
-                <h1 class="header__title">Hello this web page as i hope can help you with the phone and board computer education</h1>
+                <h2 class="header__title">Hello this web page as i hope can help you with the phone and board computer
+                    education</h2>
             </div>
             <div class="header__language">
-                <img src="#" alt="header__language_logo">
-                <h2>tap here to change language</h2>
+                <img class="header__language_logo" src="src/img/gb-flag.png" alt="header__language_logo">
+                <p class="header_language_title">tap here to change language</p>
             </div>
         </header>
-    </section>
-    <section class="main">
-    <section class="main__wrapper">
-        <section>
-        <div class="main__video_connect">
-            <img src="#" alt="play-logo" class="main__video_logo">
-            <p class="main__video_name">How to connect phone to Board computer</p>
-            <video class="main__video_video" src="#"></video>
+        <div class="beta_div">
+            <h1 class="beta">BETA version pure HTML & CSS
+                (now it's just only as idea)
+            </h1>
         </div>
-        <div class="main__video_clear-cache">
-            <img src="#" alt="play-logo" class="main__video_logo">
-            <p class="main__video_name">How to clean cashe on the flex phone</p>
-            <video class="main__video_video" src="#"></video>
-        </div>
-        <div class="main__video_scan">
-            <img src="#" alt="play-logo" class="main__video_logo">
-            <p class="main__video_name">How to make correct scan</p>
-            <video class="main__video_video" src="#"></video>
-        </div>
-    </section>
-</section>
+        <section class="main">
+            <section class="main__wrapper">
 
-    <section class="documentation">
-        <section class="documentation__wrapper">
-            <div class="layout_2_column">
+                <div class="main__video_connect">
+                    <div class="main__video_text">
+                        <img src="src/img/play-logo-24.png" alt="play-logo" class="main__video_logo">
+                        <p class="main__video_name">How to connect phone to Board computer</p>
+                    </div>
+                    <video controls width="350" class="main__video_video" src="src/img/pair.mp4"></video>
+                </div>
+                <div class="main__video_clear-cache">
+                    <div class="main__video_text">
+                        <img src="src/img/play-logo-24.png" alt="play-logo" class="main__video_logo">
+                        <p class="main__video_name">How to clean cashe on the flex phone</p>
+                    </div>
+                    <video controls width="350" class="main__video_video" src="src/img/clean-cache.mp4"></video>
+
+
+                </div>
+                <div class="main__video_scan">
+                    <div class="main__video_text">
+                        <img src="src/img/play-logo-24.png" alt="play-logo" class="main__video_logo">
+                        <p class="main__video_name">How to make correct scan</p>
+                    </div>
+                    <video controls width="350" class="main__video_video" src="src/img/scan.mp4"></video>
+                </div>
+            </section>
+        </section>
+
+        <section class="documentation">
+            <section class="documentation__wrapper">
+                <!-- <div class="layout_2_column"> -->
                 <div class="documentation__handbook">
-                    <p class="documentation__text">this is useful text</p>
+                    <p class="documentation__text">driver handbook</p>
                 </div>
                 <div class="documentation__manual">
                     <p class="documentation__text">this is useful text</p>
                 </div>
-            </div>
+                <!-- </div> -->
+            </section>
         </section>
     </section>
-</section>
+    </section>
 </body>
+
 </html>
