@@ -118,3 +118,8 @@ a {
     color: white;
     background-color: rgb(223, 30, 33)
 }
+
+.main__video_connect :hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+
+}
