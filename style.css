@@ -3,20 +3,26 @@ body {
     max-width: 1980px;
     padding: 0 20px;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(223, 30, 33);
+}
+
+a {
+    text-decoration: none;
+
 }
 
 
 /* header */
 
 .header__wrapper {
-    background-color: rgb(182, 166, 166);
+    background-color: rgb(207, 188, 102);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .header__info {
-    padding: 0 200px;
+    padding: 0 100px;
 
 }
 
@@ -33,7 +39,7 @@ body {
 
 .header_language_title {
     padding-left: 20px;
-    max-width: 130px;
+    max-width: 190px;
     text-decoration: underline;
     cursor: pointer;
 
@@ -46,19 +52,25 @@ body {
 
 /* main */
 .main {
-    padding-top: 40px;
-
+    margin-top: 40px;
 }
 
 .main__wrapper {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(223, 30, 33);
+    padding-bottom: 20px;
+}
+
+.main__video_name {
+    /* background: white; */
 }
 
 .main__video_text {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .beta_div {
@@ -78,11 +90,31 @@ body {
 .documentation {
     margin-top: 40px;
     padding: 20px 0;
-    background: rgb(182, 166, 166)
+    background: rgb(207, 188, 102);
 }
 
 .documentation__wrapper {
     display: flex;
     justify-content: center;
     gap: 120px;
+}
+
+.documentation__pdf_logo {
+    max-width: 48px;
+}
+
+.documentation__handbook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-top: 0px;
+    padding: 10px 10px;
+}
+
+.documentation__text {
+
+    color: white;
+    background-color: rgb(223, 30, 33)
 }
