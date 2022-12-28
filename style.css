@@ -64,7 +64,7 @@ p {
     .header__wrapper {
         display: flex;
         justify-content: center;
-        gap: 30px;
+        gap: 40px;
     }
 
     .header__title {
@@ -72,20 +72,26 @@ p {
         /* display: none; */
     }
 
-    .header__language_logo {
+    /* .header__language_logo {
         display: none;
-    }
+    } */
 
-}
-
-@media (max-width: 767px) {
     .header__title {
         display: none;
     }
 
+
+}
+
+@media (max-width: 550px) {
     .header__language_logo {
-        padding-right: 10px;
-        display: block;
+        display: none;
+    }
+
+    .header__wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
     }
 }
 
