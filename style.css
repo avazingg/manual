@@ -78,6 +78,17 @@ p {
 
 }
 
+@media (max-width: 767px) {
+    .header__title {
+        display: none;
+    }
+
+    .header__language_logo {
+        padding-right: 10px;
+        display: block;
+    }
+}
+
 .header__logo {
     padding-left: 20px;
 }
@@ -115,6 +126,7 @@ p {
 .header__language_logo {
     max-width: 40px;
     max-height: 30px;
+    padding-right: 10px;
 }
 
 /* main */
@@ -275,14 +287,14 @@ p {
 }
 
 .footer__bg_desktop {
-    min-width: max-content;
-    max-width: max-content;
+    width: 1920px;
+
 
 }
 
 .footer__bg_tablet {
     display: none;
-    max-width: 767px;
+    /* max-width: 767px; */
 }
 
 @media (max-width: 767px) {
