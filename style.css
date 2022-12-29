@@ -36,6 +36,12 @@ a {
 
 }
 
+a :after {
+    text-decoration: none;
+    color: white;
+}
+
+
 p {
     color: white;
 }
@@ -176,11 +182,13 @@ p {
 .main__video_name {
     /* background: white; */
     font-size: 18px;
+    max-width: 350px;
 }
 
 .main__video_content {
     background-color: white;
     padding: 5px 10px;
+    height: 708px;
 
 }
 
