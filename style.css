@@ -9,13 +9,13 @@ body {
     /* background-color: rgb(140, 143, 145); */
     /* background: linear-gradient(to top, #cce0f3 4%, #80a4cb 88%); */
 
-    background: linear-gradient(to bottom right, #23b2a5, rgb(223, 30, 33));
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite
+    /* background: linear-gradient(to bottom right, #23b2a5, rgb(223, 30, 33)); */
+    /* background-size: 400% 400%;
+    animation: gradient 15s ease infinite */
 }
 
 .bg {
-    animation: slide 3s ease-in-out infinite alternate;
+    animation: slide 6s ease-in-out infinite alternate;
     background-image: linear-gradient(-60deg, #23b2a5 50%, rgb(223, 30, 33) 50%);
     bottom: 0;
     left: -50%;
