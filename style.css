@@ -48,9 +48,15 @@ body {
     transform: translate(-50%, -50%);
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: monospace;
 }
+
+
 
 @keyframes slide {
     0% {
@@ -92,6 +98,7 @@ a :after {
 
 p {
     color: white;
+    font-family: 'Roboto';
 }
 
 /* header */
@@ -292,9 +299,31 @@ p {
     /* background-color: rgb(223, 30, 33) */
 }
 
+.planners-info__wrapper {
+    padding: 20px 0;
+    background: rgb(223, 30, 33);
+}
+
+.planners-info__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.planners-info__title {
+    color: white;
+}
+
+.planners-info__text {
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
 .documentation {
     margin-top: 40px;
-    padding: 20px 0;
+    padding-bottom: 40px;
     display: flex;
     justify-content: center;
     /* background-image: url('src/img/vos-bg.png');
@@ -348,7 +377,7 @@ p {
 .documentation__text {
 
     color: white;
-    background-color: rgb(223, 30, 33)
+    background-color: rgb(223, 30, 33);
 }
 
 .documentation__text {
@@ -361,60 +390,125 @@ p {
 }
 
 
+.wash__wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background: rgb(223, 30, 33);
+}
 
+.wash__container {
+    max-width: 900px;
+}
 
+.wash__text,
+.tires-service__text {
+    color: white;
+}
 
 .footer__wrapper {
-    padding-top: 40px;
+    padding: 40px 60px 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     /* background-image: url('src/img/vos-bg.png'); */
 
-    /* max-height: 700px; */
-}
-
-.footer__bg_desktop {
-    width: 1920px;
-
 
 }
 
-.footer__bg_tablet {
-    display: none;
-    /* max-width: 767px; */
+.footer__title {
+
+    padding: 2px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    max-width: max-content;
+
+}
+
+.footer__info {
+    background: rgb(223, 30, 33);
+    padding: 12px 108px;
+}
+
+.viber__container,
+.whatsapp__container,
+.phone-call__container {
+    margin-top: 5px;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+.phone-call-number,
+.phone-call-whatsapp,
+.phone-call-viber {
+    color: black;
+}
+
+.phone-call__text,
+.viber__text,
+.whatsapp__text {
+    font-family: monospace;
+    font-size: 20px;
+    padding-left: 20px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.footer__bg {
+
+    max-width: 920px;
+    max-height: 520px;
+
+}
+
+.footer__viber_img,
+.footer__phone-call_img {
+    max-width: 55px;
+    max-height: 55px;
+    padding: 5px;
+}
+
+.footer__whatsapp_img {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+/* @media (max-width: 1400px) {
+    .footer__bg {
+        max-width: 1400px;
+    }
+} */
+/* @media (max-width: 1500px) {
+    .footer__bg {
+        max-width: 1500px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .footer__bg {
+        max-width: 1250px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer__bg {
+        max-width: 1000px;
+    }
 }
 
 @media (max-width: 767px) {
-    .footer__bg_tablet {
+    .footer__bg {
         max-width: 767px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        /* display: none; */
-        /* min-width: 100px; */
-    }
-
-    .footer__bg_desktop {
-        display: none;
     }
 }
 
 @media (max-width: 550px) {
-    .footer__bg_tablet {
+    .footer__bg {
         max-width: 550px;
-    }
-}
-
-/* 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
     }
 } */
