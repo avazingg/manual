@@ -39,11 +39,24 @@
                 <!-- <p class="header_language_title">tap here to change language</p> -->
             </div>
         </header>
-
+        <div class="navigation__wrapper">
+            <nav class="navigation__container">
+                <h2 class="navigation__title">Navigation menu</h2>
+                <a class="navigation__link" href="#main__video_connect">• how to connect phone to board computer</a>
+                <a class="navigation__link" href="#main__video_clear-cache">• how to clear cache</a>
+                <a class="navigation__link" href="#main__video_scan">• how to make correct scan</a>
+                <a class="navigation__link" href="#planners-info__wrapper">• managers and their phone numbers</a>
+                <a class="navigation__link" href="#documentation">• documentation</a>
+                <a class="navigation__link" href="#information__wrapper">• info about services (car wash, tire center
+                    and
+                    etc.)</a>
+                <a class="navigation__link" href="#contact">• Vasili contact info</a>
+            </nav>
+        </div>
         <section class="main">
             <section class="main__wrapper">
 
-                <div class="main__video_connect">
+                <div class="main__video_connect" id="main__video_connect">
                     <div class="main__video_content">
                         <!-- <img src="src/img/play-logo-24.png" alt="play-logo" class="main__video_logo"> -->
                         <p class="main__video_name">How to connect phone to Board computer</p>
@@ -53,7 +66,7 @@
 
                 </div>
                 <!-- put video inside prev div -->
-                <div class="main__video_clear-cache">
+                <div class="main__video_clear-cache" id="main__video_clear-cache">
                     <div class="main__video_content">
                         <!-- <img src="src/img/play-logo-24.png" alt="play-logo" class="main__video_logo"> -->
                         <p class="main__video_name">How to clean cashe on the flex phone</p>
@@ -64,7 +77,7 @@
 
 
                 </div>
-                <div class="main__video_scan">
+                <div class="main__video_scan" id="main__video_scan">
                     <div class="main__video_content">
                         <!-- <img src="src/img/play-logo-24.png" alt="play-logo" class="main__video_logo"> -->
                         <p class="main__video_name">How to make correct scan</p>
@@ -75,61 +88,67 @@
                 </div>
             </section>
         </section>
-        <section class="planners-info__wrapper">
+        <section class="planners-info__wrapper" id="planners-info__wrapper">
             <div class="planners-info__container">
-                <h2 class="planners-info__title">Phone numbers of managers and who works with which country:</h2>
+                <h2 class="planners-info__title">Phone numbers of managers and who works with what country:</h2>
                 <p class="planners-info__text">
-                    Robertas (+31-683-526313) - planning; //planing105//<br>
+                    Robertas (+31-683-526313) - planning;<span class="colortext"> //planing105//</span><br>
                     Yuri (+31-626-428773) - local trips (Holland, Belgium) with Russian-speaking
-                    drivers; //planing//<br>
+                    drivers;<span class="colortext"> //planing//<br></span>
                     Audrius Poškus (+370-616-73479) – local trips (Holland, Belgium) with Lithuaniun
-                    drives; //planing146// <br>
-                    Paulus (+370-630-01434) - Sweden; //planing...//<br>
-                    Audrius Pačkauskas (+370-630-01435) - Norway, Denmark, northern Germany; //planing...// <br>
+                    drives; <span class="colortext">//planing146//</span> <br>
+                    Paulus (+370-630-01434) - Sweden; <span class="colortext">//planing102//</span><br>
+                    Audrius Pačkauskas (+370-630-01435) - Norway, Denmark, northern Germany; <span
+                        class="colortext">//planing81// </span><br>
                     Thomas (+370-659-83137) – England, southern Germany, Finnish trailers and
                     disconnecting<br>
-                    another trailers in Travemund; //planing...//<br>
-                    Mindaugas (+370-651-22414) - Copenhagen (with Russian-speaking drivers). //planingLT//</p>
+                    another trailers in Travemund; <span class="colortext">//planing149//</span><br>
+                    Mindaugas (+370-651-22414) - Copenhagen (with Russian-speaking drivers).<span
+                        class="colortext">//planingLT//</span> </p>
             </div>
         </section>
-        <section class="documentation">
+        <section class="documentation" id="documentation">
             <section class="documentation__wrapper">
                 <!-- <div class="layout_2_column"> -->
                 <div class="documentation__handbook">
-                    <a href="src/img/phone-bc-notebook-eng.pdf">
+                    <a href="src/documents/eng-phone-bc-notebook.pdf">
                         <p class="documentation__text">driver handbook(phone & BC education)</p>
                     </a>
-                    <a href="src/img/phone-bc-notebook-eng.pdf"><img class="documentation__pdf_logo"
+                    <a href="src/documents/eng-phone-bc-notebook.pdf"><img class="documentation__pdf_logo"
                             src="src/img/PDF-logo.png" alt="handbook"></a>
                 </div>
                 <div class="documentation__handbook">
-                    <a href="src/img/vos-handbook-ru.pdf">
+                    <a href="src/documents/eng-handbook.pdf">
                         <p class="documentation__text">VOS driver handbook</p>
                     </a>
-                    <a href="src/img/vos-handbook-ru.pdf"><img class="documentation__pdf_logo"
+                    <a href="src/documents/eng-handbook.pdf"><img class="documentation__pdf_logo"
                             src="src/img/PDF-logo.png" alt="handbook"></a>
                 </div>
                 <div class="documentation__handbook">
-                    <a href="src/img/driver-notebook-ru.pdf">
+                    <a href="src/documents/eng-notebook.pdf">
                         <p class="documentation__text"> VOS driver notebook</p>
                     </a>
-                    <a href="src/img/driver-notebook-ru.pdf"><img class="documentation__pdf_logo"
+                    <a href="src/documents/eng-notebook.pdf"><img class="documentation__pdf_logo"
                             src="src/img/PDF-logo.png" alt="handbook"></a>
                 </div>
                 <!-- </div> -->
             </section>
         </section>
-        <section class="wash__wrapper">
-            <div class="wash__container">
-                <h2 class="wash__text">Сar wash is open Wednesday/Friday 15:00-21:00 and Saturday from 08:00-16:00</h2>
-                <h2 class="tires-service__text">every saturday you must check your truck & trailer tires before 12:00
+        <section class="information__wrapper" id="information__wrapper">
+            <div class="information__container">
+                <h2 class="wash__text">Сar wash is open Wednesday/Friday 15:00-21:00 and Saturday from 08:00-16:00
+                    (truck must be washed every week)
+                </h2>
+                <h2 class="tires-service__text">every saturday you must check your truck & trailer tires before
+                    12:00
                     am.
-                    And if something wrong you should find tyres service somewhere at VOS transport territory </h2>
+                    And if something wrong you should find tires service somewhere at VOS transport territory </h2>
+                <h2 class="workshop__text">VOS workshop (service) works Mon-Fri 8:00-17:00 Sat 8:00-12:00</h2>
             </div>
         </section>
 
         <footer class="footer__wrapper">
-            <div class="footer__info">
+            <div class="footer__info" id="contact">
                 <h2 class="footer__title">if you have any question please please contact me via: </h2>
                 <div class="viber__container">
                     <a class="footer__viber" href="viber://add?number=375336051676"><img class="footer__viber_img"
