@@ -156,18 +156,12 @@ p {
     }
 }
 
-.header__logo {
-    /* padding-left: 20px; */
-}
+
 
 .header__title {
     color: white;
 }
 
-.header__info {
-    /* padding: 0 00px; */
-    /* width: 407px; */
-}
 
 @media (max-width: 250px) {
     .header__info {
