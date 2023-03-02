@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manual</title>
+    <title>Руководство для водителей</title>
     <link rel="icon" href="src/img/vos-ico.png">
     <link rel="stylesheet" href="style.css">
     <style>
@@ -23,7 +23,7 @@
                 <img class="header__logo_img" src="src/img/vos-logo.png" alt="logo">
             </div>
             <div class="header__info">
-                <h2 class="header__title">Телефон и бортовой компьютер</h2>
+                <h2 class="header__title">Руководство для водителей</h2>
             </div>
             <div class="header__language">
                 <a href="index.html"> <img class="header__language_logo" src="src/img/en-txt.png"
@@ -43,7 +43,7 @@
                 <a class="navigation__link" href="#main__video_connect">• Rак подключить телефон к Бортовому
                     компьютеру</a>
                 <a class="navigation__link" href="#main__video_clear-cache">• Как очистить кэш-память на телефоне</a>
-                <a class="navigation__link" href="#main__video_scan">• Rак делать правильные сканы CMR</a>
+                <a class="navigation__link" href="#main__video_scan">• Как делать правильные сканы CMR</a>
                 <a class="navigation__link" href="#planners-info__wrapper">• Менеджеры их телефонные номера и страны с
                     какими они работают</a>
                 <a class="navigation__link" href="#documentation">• Документация</a>
@@ -55,7 +55,7 @@
         <section class="main">
             <section class="main__wrapper">
 
-                <div class="main__video_connect">
+                <div class="main__video_connect" id="main__video_connect">
                     <div class="main__video_content">
                         <!-- <img src="src/img/play-logo-24.png" alt="play-logo" class="main__video_logo"> -->
                         <p class="main__video_name">Как подключить телефон к бортовому компьютеру</p>
@@ -65,7 +65,7 @@
 
                 </div>
                 <!-- put video inside prev div -->
-                <div class="main__video_clear-cache">
+                <div class="main__video_clear-cache" id="main__video_clear-cache">
                     <div class="main__video_content">
                         <!-- <img src="src/img/play-logo-24.png" alt="play-logo" class="main__video_logo"> -->
                         <p class="main__video_name">Как очистить кэш-память на телефоне</p>
@@ -76,7 +76,7 @@
 
 
                 </div>
-                <div class="main__video_scan">
+                <div class="main__video_scan" id="main__video_scan">
                     <div class="main__video_content">
                         <!-- <img src="src/img/play-logo-24.png" alt="play-logo" class="main__video_logo"> -->
                         <p class="main__video_name">Как делать правильные сканы</p>
@@ -89,25 +89,33 @@
         </section>
         <section class="planners-info__wrapper" id="planners-info__wrapper">
             <div class="planners-info__container">
-                <h2 class="planners-info__title">Номера телефонов менеджеров и кто ,с какой страной работает:</h2>
-                <p class="planners-info__text">
-                    Робертас (+31-683-526313) – планирование;<span class="colortext"> //planing105//</span><br>
-                    Юрий (+31-626-428773) – местные поездки (Голландия, Бельгия) с русскоговорящими водителями;<span
-                        class="colortext"> //planing//<br></span>
-                    Аудрюс Пошкys (+370-616-73479) – местные поездки (Голландия, Бельгия) с литовскими водителями; <span
-                        class="colortext">//planing146//</span> <br>
-                    Паулюс (+370-630-01434) - Швеция; <span class="colortext">//planing102//</span><br>
-                    Аудрюс Пачкаускас (+370-630-01435) Норвегия, Дания, северная Германия; <span
-                        class="colortext">//planing81// </span><br>
-                    Томас (+370-659-83137) – Англия, южная Германия, финские прицепы и отцепление<br> других прицепов в
-                    Травемунде;
-                    <span class="colortext">//planing149//</span><br>
-                    Миндаугас (+370-651-22414) - Копенгаген (с русскоговорящими водителями).<span
-                        class="colortext">//planingLT//</span>
-                </p>
+                <h2 class="planners-info__title">Номера телефонов менеджеров и кто, с какой страной работает:</h2>
+                <div planners-info__container>
+                    <p class="planners-info__text">
+                        &nbsp Робертас (+31-683-526313) – планирование;<span class="colortext">
+                            //planing105//</span><br>
+                    <p class="planners-info__text">&nbsp Юрий (+31-626-428773) – местные поездки (Голландия, Бельгия) с
+                        русскоговорящими водителями;<span class="colortext"> //planing//<br></span></p>
+                    <p class="planners-info__text">&nbsp Аудрюс Пошкys (+370-616-73479) – местные поездки (Голландия,
+                        Бельгия) с литовскими водителями; <span class="colortext">//planing146//</span> <br></p>
+                    <p class="planners-info__text">&nbsp Паулюс (+370-630-01434) - Швеция; <span
+                            class="colortext">//planing102//</span><br>
+                    <p class="planners-info__text">&nbsp Аудрюс Пачкаускас (+370-630-01435) Норвегия, Дания, северная
+                        Германия;
+                        <span class="colortext">//planing81// </span><br>
+                    </p>
+                    <p class="planners-info__text">&nbsp Томас (+370-659-83137) – Англия, южная Германия, финские
+                        прицепы и
+                        отцепление других прицепов в
+                        Травемунде; <span class="colortext">//planing149//</span><br></p>
+
+                    <p class="planners-info__text">&nbsp Миндаугас (+370-651-22414) - Копенгаген (с русскоговорящими
+                        водителями).<span class="colortext">//planingLT//</span>
+                    </p>
+                </div>
             </div>
         </section>
-        <section class="documentation">
+        <section class="documentation" id="documentation">
             <section class="documentation__wrapper">
                 <!-- <div class="layout_2_column"> -->
                 <div class="documentation__handbook">
@@ -149,7 +157,7 @@
 
         <footer class="footer__wrapper">
             <div class="footer__info" id="contact">
-                <h2 class="footer__title">Если у Вас есть какие-то вопросы пожалуйста свяжитесь со мной, через: </h2>
+                <h2 class="footer__title">Если у Вас есть какие-то вопросы свяжитесь со мной: </h2>
                 <div class="viber__container">
                     <a class="footer__viber" href="viber://add?number=375336051676"><img class="footer__viber_img"
                             src="src/img/viber.png" alt="viber-ico"></a>
@@ -173,7 +181,9 @@
             </div>
             <img class="footer__bg" src="src/img/vos-bg.png" alt="">
         </footer>
+        <div class="btn-up btn-up_hide"></div>
     </section>
 </body>
+<script src="script.js"></script>
 
 </html>
