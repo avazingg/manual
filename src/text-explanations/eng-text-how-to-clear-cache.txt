@@ -1,0 +1,9 @@
+text explanation HOW to clear VOS phone cache:
+1. Open: at phone main menu (it previous menu for "at work" screen)
+2. Tap at "Settings" -> "Clear phone storage and cache"
+3. At phone open TX-flex (app in which you work)
+4. Tap "at work" and you will see screnn with camera
+5. At Transcics (Board computer) tap "Home" icon and do slides to left side
+6. You see in bottom-left corner icon of Qr-code please press on it
+7. And scan QR from Transics with your VOS phone
+

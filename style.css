@@ -112,15 +112,6 @@ p {
     box-shadow: 5px;
 }
 
-@media (max-width: 1279px) {
-    .header__wrapper {
-        /* display: flex;
-        justify-content: center;
-        gap: 30px; */
-    }
-
-}
-
 @media (max-width: 767px) {
     .header__wrapper {
         display: flex;
@@ -178,6 +169,7 @@ p {
     max-height: 40px;
     padding: 2px;
     margin-left: 40px;
+    border-radius: 5px;
 }
 
 .header__language {
@@ -187,6 +179,7 @@ p {
     /* background: #23b2a5; */
     /* padding: 10px; */
     margin-right: 40px;
+
 
 }
 
@@ -203,6 +196,7 @@ p {
     height: 25px;
     border: 1px solid black;
     /* padding-right: 10px; */
+    border-radius: 5px;
 
 }
 
@@ -325,7 +319,7 @@ p {
     background-color: white;
     padding: 1px 7px;
     height: 700px;
-
+    border-radius: 5px;
 }
 
 
@@ -348,13 +342,46 @@ p {
     box-shadow: none;
     padding: 2px;
     background-color: rgb(223, 30, 33);
+    border-radius: 5px;
+}
 
+.main__video_video {
+    border-radius: 5px;
 }
 
 .main__video_connect {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 
     /* background-color: rgb(223, 30, 33) */
+}
+
+.main__text_explanation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(223, 30, 33);
+    margin-top: 15px;
+    max-width: 365px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.explanation__text {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.text-logo {
+    background: white;
+    max-width: 50px;
+    padding: 2px;
+    border-radius: 5px;
 }
 
 .planners-info__wrapper {
@@ -397,6 +424,7 @@ p {
     padding-bottom: 40px;
     display: flex;
     justify-content: center;
+
     /* background-image: url('src/img/vos-bg.png');
     width: 1500px;
     height: 498px; */
@@ -408,6 +436,7 @@ p {
     display: flex;
     justify-content: center;
     gap: 120px;
+
 
 }
 
@@ -443,10 +472,11 @@ p {
     padding-top: 0px;
     padding: 10px 10px;
     width: 200px;
+    border-radius: 5px;
 }
 
 .documentation__text {
-
+    border-radius: 5px;
     color: white;
     background-color: rgb(223, 30, 33);
 }
@@ -502,7 +532,7 @@ p {
 }
 
 .footer__title {
-
+    border-radius: 5px;
     padding: 2px;
     background: white;
     display: flex;
@@ -516,6 +546,7 @@ p {
     background: rgb(223, 30, 33);
     padding: 12px 108px;
     margin-right: 20px;
+    border-radius: 5px;
 }
 
 .viber__container,
@@ -525,6 +556,7 @@ p {
     background: white;
     display: flex;
     align-items: center;
+    border-radius: 5px;
 }
 
 .phone-call-number,
@@ -548,7 +580,7 @@ p {
 
     max-width: 920px;
     max-height: 520px;
-
+    border-radius: 5px;
 }
 
 

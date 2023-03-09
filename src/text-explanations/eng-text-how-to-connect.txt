@@ -1,0 +1,6 @@
+text explanation HOW to connect phone to Transics:
+1. At VOS phone tap "at work" or if you are already here
+find icon with "QR-code" and name "Pairing" and tap on it
+2. At Transcics (Board computer) tap "Home" icon and do slides to left side
+3. You see in bottom-left corner icon of Qr-code please press on it
+4. And scan QR from Transics with your VOS phone.
