@@ -1,0 +1,12 @@
+text explanation HOW to make correct scan:
+1. Start your unloading at Transics before you'll see text
+"Continue at VOS phone"
+2.At phone find your active unloading it has to be marked with
+colored rectangle (color of your transics active theme for example red) so press on 
+this rectangle
+3.After it please answer on some questions (about shipment,
+pallets changing and etc.) and when you see blank with text "TO1234324251"
+i wrote dawn random numbers but always you see "TO" and random digits
+4.Tap on it after select type of document "CMR" and make photo of CMR
+and follow the instructions
+5. When you finished at VOS phone please finish active unloading at Transcis 
