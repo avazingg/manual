@@ -14,7 +14,7 @@ body {
     animation: gradient 15s ease infinite */
 }
 
-.bg {
+/* .bg {
     animation: slide 6s ease-in-out infinite alternate;
     background-image: linear-gradient(-60deg, #23b2a5 50%, rgb(223, 30, 33) 50%);
     bottom: 0;
@@ -24,7 +24,7 @@ body {
     right: -50%;
     top: 0;
     z-index: -1;
-}
+} */
 
 .bg2 {
     animation-direction: alternate-reverse;
