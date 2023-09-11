@@ -1,0 +1,143 @@
+.planners-info__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ 
+    background: rgb(223, 30, 33);
+}
+h2{
+    font-family:'Roboto';
+}
+
+.planners-info__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 7x;
+}
+
+.colortext {
+    color: #23b2a5;
+    font-weight: bold;
+    text-decoration: wavy;
+}
+
+.planners-info__title {
+    color: white;
+}
+
+.planners-info__text {
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+@media (max-width: 1080px) {
+    .planners-info__wrapper {
+        padding: 0 7px;
+    }
+}
+
+.documentation {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+
+    /* background-image: url('src/img/vos-bg.png');
+    width: 1500px;
+    height: 498px; */
+    /* background: rgb(152, 104, 104); */
+}
+
+
+.documentation__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+
+
+}
+
+@media (max-width: 767px) {
+    .documentation__wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 940px) {
+    .documentation__wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+}
+
+.documentation__pdf_logo {
+    max-width: 48px;
+}
+
+.documentation__handbook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-top: 0px;
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.documentation__text {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(223, 30, 33);
+}
+
+.documentation__text {
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.documentation__pdf_logo {
+    margin-bottom: 10px;
+}
+
+
+.information__wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: rgb(223, 30, 33);
+}
+
+.information__container {
+    max-width: 900px;
+}
+
+@media (max-width: 940px) {
+    .information__wrapper {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 672px) {
+    .information__wrapper {
+        padding: 10px;
+    }
+}
+
+.wash__text,
+.tires-service__text,
+.workshop__text {
+    color: white;
+    font-family: 'Roboto';
+}
+

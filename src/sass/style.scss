@@ -1,0 +1,15 @@
+//abstracts
+@import "abstracts/constants.scss";
+//base
+@import "base/base";
+@import "base/buttons";
+
+//layout
+@import "layout/header";
+@import "layout/footer";
+
+@import "pages/main";
+@import "pages/truckCheck";
+@import "pages/txPhone";
+@import "pages/info";
+@import "pages/.toyota";
