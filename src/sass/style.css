@@ -1,8 +1,7 @@
 body {
-  /* padding: 0 20px; */
   font-family: "Roboto", sans-serif;
   margin: 0px;
-  background-image: url(../src/img/bg-image.png);
+  background-image: url(/src/img/bg-image.png);
 }
 
 h1 {
@@ -37,6 +36,8 @@ p {
   border-radius: 5px;
   color: rgb(26, 24, 24);
   background: #FAFAFA;
+  display: flex;
+  justify-content: center;
   width: 50px;
   height: 35px;
   font-size: 24px;
@@ -340,13 +341,9 @@ p {
   }
 }
 .body__wrapper {
-  /* display: block;
-  justify-content: center; */
   max-width: 1920px;
   margin: auto;
   overflow: hidden;
-  /* align-items: center; */
-  background-image: url(/src/img/bg-image.png);
 }
 
 @media (max-width: 767px) {
