@@ -1,0 +1,128 @@
+.header__wrapper {
+    background-color: rgb(223, 30, 33);
+    display: flex;
+    justify-content: space-between;
+    /* gap: 400px; */
+    align-items: center;
+    box-shadow: 5px;
+    padding: 5px 0;
+    scroll-behavior: smooth;
+    position: sticky; 
+    top: 0;
+}
+.header__wrapper_activity{
+    background-color: rgb(223, 30, 33);
+    display: flex;
+    justify-content: space-around;
+    /* gap:550px; */
+    align-items: center;
+    box-shadow: 5px;
+}
+
+@media (max-width: 767px) {
+    .header__wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .header__title {
+        font-size: 16px;
+
+        /* display: none; */
+    }
+    .header__title {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 550px) {
+    .header__wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+
+
+.header__title {
+    color: white;
+
+}
+
+
+@media (max-width: 250px) {
+    .header__info {
+        width: 366px;
+    }
+}
+
+.header__logo_img {
+    background-color: white;
+    max-width: 200px;
+    max-height: 40px;
+    padding: 2px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.header__language {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 40px;
+
+
+}
+
+.header_language_title {
+
+    max-width: 190px;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.header__language_logo {
+    width: 45px;
+    height: 30px;
+    border: 2px solid black;
+    /* padding-right: 10px; */
+    border-radius: 5px;
+
+}
+
+@media (max-width: 767px) {
+    .header__wrapper {
+        padding: 5px 0;
+        justify-content: space-between;
+    }
+
+    .header__language {
+        justify-content: center;
+        margin-right: 20px;
+
+    }
+
+    .header__logo_img {
+        max-width: 140px;
+        max-height: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 440px) {
+    .header__language {
+
+        margin-right: 5px;
+
+    }
+
+    .header__logo_img {
+
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,128 @@
+.footer__wrapper {
+    margin-top: 50px;
+    padding: 14px 40px 14px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: $color-primary;
+}
+
+.footer__title {
+    border-radius: 5px;
+    padding: 10px 5px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 290px;
+
+}
+
+.footer__info {
+    background: rgb(223, 30, 33);
+    padding: 12px 108px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.viber__container,
+.whatsapp__container,
+.phone-call__container {
+    padding: 2px 10px;
+    margin-top: 5px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.phone-call-number,
+.phone-call-whatsapp,
+.phone-call-viber {
+    color: black;
+}
+
+.phone-call__text,
+.viber__text,
+.whatsapp__text {
+    font-family: monospace;
+    font-size: 20px;
+    padding-left: 20px;
+    color: black;
+    font-weight: bold;
+
+}
+.footer__bg {
+
+    max-width: 920px;
+    max-height: 520px;
+    border-radius: 5px;
+}
+
+
+
+.footer__viber_img,
+.footer__phone-call_img,
+.footer__whatsapp_img {
+    max-width: 55px;
+    max-height: 55px;
+    padding: 5px;
+}
+
+
+@media (max-width: 1140px) {
+    footer{
+        display: flex;
+       justify-content: center;
+    }
+    .footer__wrapper {
+        max-width: 700px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 10px;
+       column-gap: 10px;
+    }
+}
+@media (max-width: 940px) {
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .footer__bg {
+        padding-top: 10px;
+
+    }
+
+    .footer__info {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0px;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .footer__wrapper {
+    }
+}
+
+@media (max-width: 672px) {
+    .footer__info {
+        padding: 12px 20px;
+    }
+
+   
+
+    .footer__bg {
+        padding-top: 10px;
+    }
+}
+
+
+
