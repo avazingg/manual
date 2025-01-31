@@ -27,7 +27,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: rgb(223, 30, 33);
+        background: $color-primary;
     }
 
     .navigation__container {
@@ -94,6 +94,7 @@
 }
 
 .main__video_name {
+    height: 40px;
     /* background: white; */
     font-size: 18px;
     max-width: 350px;
@@ -102,7 +103,7 @@
 .main__video_content {
     background-color: white;
     padding: 1px 7px;
-    height: 700px;
+    height: 500px;
     border-radius: 5px;
 }
 
@@ -125,12 +126,13 @@
     align-items: center;
     box-shadow: none;
     padding: 2px;
-    background-color: rgb(223, 30, 33);
+    background-color:  $color-primary;
     border-radius: 5px;
 }
 
 .main__video_video {
     border-radius: 5px;
+    max-height: 400px;
 }
 
 .main__video_connect {
@@ -145,11 +147,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(223, 30, 33);
+    background:  $color-primary;
     margin-top: 15px;
     max-width: 365px;
     padding: 10px 0;
     border-radius: 5px;
+    height: 106px;
 }
 
 .explanation__text {

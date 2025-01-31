@@ -1,5 +1,5 @@
 .header__wrapper {
-    background-color: rgb(223, 30, 33);
+    background-color: $color-primary;
     display: flex;
     justify-content: space-between;
     /* gap: 400px; */
@@ -11,7 +11,7 @@
     top: 0;
 }
 .header__wrapper_activity{
-    background-color: rgb(223, 30, 33);
+    background-color: $color-primary;
     display: flex;
     justify-content: space-around;
     /* gap:550px; */
@@ -49,7 +49,7 @@
 
 
 .header__title {
-    color: white;
+    color: $color-light-white;
 
 }
 
@@ -61,7 +61,7 @@
 }
 
 .header__logo_img {
-    background-color: white;
+    background-color: $color-light-white;
     max-width: 200px;
     max-height: 40px;
     padding: 2px;
@@ -89,7 +89,7 @@
 .header__language_logo {
     width: 45px;
     height: 30px;
-    border: 2px solid black;
+    border: 2px solid $color-dark;
     /* padding-right: 10px; */
     border-radius: 5px;
 

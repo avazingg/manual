@@ -2,7 +2,9 @@ body {
 
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    background-image: url(../img/bg-image.png);
+    // background-image: url(../img/bg-image.png);
+    background-image: url(/src/img/sand.png);
+    // background-color: rgb(250, 245, 245);
    
 }
 h1{
@@ -22,13 +24,13 @@ a {
 
 a :after {
     text-decoration: none;
-    color: white;
+    color: $color-light-white;
     font-family:'Roboto';
 }
 
 
 p {
-    color: white;
+    color: $color-light-white;
     font-family: 'Roboto';
 }
 
